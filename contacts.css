@@ -1,0 +1,104 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #2F3035;
+  background-image: url(image/background-adare-restaurant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header{
+  
+  height: 118px;
+  text-align: center;
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.336);
+text-align: center;
+padding-top: 14px;
+padding-bottom: 14px;
+}
+main{
+  
+  height: 400px;
+ 
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.336);
+  color: white;
+  text-align: center;
+}
+.footer p{
+  font-size: 15px;
+  color:white;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 84px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 18px;
+  color:whitesmoke;
+  font-family: sans-serif;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+nav a{
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer p{
+  font-size: 10px;
+  text-align: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
